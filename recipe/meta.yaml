@@ -10,7 +10,7 @@ source:
   sha256: 675a27fec61a223a26efd5473ddb5a869252d015af6f252692b1c3c6f8400c7b
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - shortcutter = shortcutter:main
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
